@@ -13,4 +13,4 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calc(3, 2, '/'), 1.5)
 
     def test_values(self):
-        self.assertRaises(ValueError, calc, 1, 0, 'б')
+        self.assertRaises(ValueError, calc, 1, 0, '/')
